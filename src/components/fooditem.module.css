@@ -1,0 +1,43 @@
+.itemContainer {
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    background-color: #393e4694;
+    margin: 20px;
+    overflow: hidden;
+    font-family: polysans, sans-serif;
+}
+
+.itemImage {
+    width: 100%;
+}
+
+.itemContent {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+}
+
+.itemName {
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+}
+
+.itemButton {
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.itemButton:hover {
+    background-color: #e3e3e3;
+}
+
+.buttonContainer {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
